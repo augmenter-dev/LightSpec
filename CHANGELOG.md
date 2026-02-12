@@ -1,5 +1,11 @@
 # lightspec
 
+## 0.3.3
+
+### Patch Changes
+
+- Sync skills and fix skill files
+
 ## 0.3.2
 
 ### Patch Changes
