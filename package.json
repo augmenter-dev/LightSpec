@@ -53,6 +53,7 @@
     "check:pack-version": "node scripts/pack-version-check.mjs",
     "release": "pnpm run release:ci",
     "release:ci": "pnpm run check:pack-version && pnpm exec changeset publish",
+    "release:passkey": "npm config set auth-type web && pnpm run release:ci",
     "release:manual": "bash scripts/release-manual.sh",
     "changeset": "changeset"
   },
