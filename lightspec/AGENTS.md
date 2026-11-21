@@ -169,10 +169,14 @@ New request?
 - [Bullet list of changes]
 - [Mark breaking changes with **BREAKING**]
 
+## Non-Goals
+- [Work readers might reasonably expect that is outside the scope]
+
 ## Impact
 - Affected specs: [list capabilities]
 - Affected code: [key files/systems]
 ```
+Include Non-Goals only when scope could be misunderstood. Use one or two short bullets.
 
 3. **Create spec deltas:** `specs/[capability]/spec.md`
 ```markdown

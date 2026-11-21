@@ -17,6 +17,7 @@ const proposalSteps = `**Steps**
 1. Run \`lightspec list\` and \`lightspec list --specs\`, and inspect related code or docs (e.g., via \`rg\`/\`ls\`) to ground the proposal in current behaviour.
 2. Note any gaps in the user plan that require clarification. Ask follow-up questions to resolve ambiguities before proceeding. Avoid making assumptions about unstated requirements or implementation details.
 3. Choose a unique verb-led \`change-id\` and scaffold \`proposal.md\`, \`tasks.md\`, and \`design.md\` (when needed) under \`lightspec/changes/<id>/\`.
+   In \`proposal.md\`, add an optional \`## Non-Goals\` section after \`## What Changes\` when readers might reasonably expect work that is outside the scope. Use one or two short bullets and omit the section when the scope is clear.
 4. Map the change into concrete capabilities or requirements, breaking multi-scope efforts into distinct spec deltas with clear relationships and sequencing.
 5. Capture architectural reasoning in \`design.md\` when the solution spans multiple systems, introduces new patterns, or demands trade-off discussion before committing to specs.
 6. Draft spec deltas in \`changes/<id>/specs/<capability>/spec.md\` (one folder per capability) using \`## ADDED|MODIFIED|REMOVED Requirements\` with at least one \`#### Scenario:\` per requirement and cross-reference related capabilities when relevant.
