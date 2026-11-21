@@ -1,5 +1,11 @@
 # lightspec
 
+## 0.7.0
+
+### Minor Changes
+
+- Add optional Non-Goals to proposals and remove the recommendation to enter plan mode before drafting a proposal.
+
 ## 0.6.0
 
 ### Minor Changes
